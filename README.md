@@ -1,5 +1,7 @@
 # Hotel booking contract
 Last times the hotel industry is facing numerous challenges such as low efficiencies, lack of transparency, and security issues. May be blockchain technology has the more potential to address these challenges and improve the overall operations of the hotel business. This project aims to explore the potential benefits and challenges of implementing blockchain technology in the hotel industry and identify successful decisions. The study uses a mixed-methods approach to gather data from various sources.  Perhaps this project highlights the potential of blockchain technology to revolutionize the hotel industry and bring innovation and disruption to traditional processes. As I know many travel platforms now offer the option to book flights, car rentals, e-commerce and even unique travel experiences with ETH (e.g., Sleap.io, Travala, Cryptwerk, LockTrip, Winding Tree). Suppose as more services adopt cryptocurrency, in future entire trip can be planned using Ethereum.
+
+## Contract overview
 In that sense, I tried to create this app that exists a simple frontend to interact with the `Hotel.sol` decentralized booking system. The properties of this software
 - buy tokens representing accommodation days;
 - book stays via Ethereum smart contracts;
