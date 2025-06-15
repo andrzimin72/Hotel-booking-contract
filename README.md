@@ -34,7 +34,7 @@ npm install
 npm start
 ```
 
-## Testing Locally. 
+## Testing Locally 
 
 1. Use Hardhat Network or run a local node:
 ```
@@ -48,7 +48,7 @@ npx hardhat run scripts/deploy.js --network localhost
 
 3. Update Hotel.json with the local contract address.
 
-## Deploying on Testnet/Mainnet
+## Deploying
 
 1. Set up .env file:
 ```
