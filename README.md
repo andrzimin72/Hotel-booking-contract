@@ -10,79 +10,98 @@ In that sense, I tried to create this app that exists a simple frontend to inter
 - Interact securely via Web3 wallet;
 - built with: Solidity, Hardhat, React, Web3Modal. Ethers.js
 Next provides steps for viewing and checking properties for these software packages.
+
 ## Quick Start
+
 1. Clone the repo
+
 2. Install dependencies
-‘’’
+```
 cd frontend
 npm install
-‘’’
-3. Configure Contracts Hotel.json 
-and update:
-‘’’
+```
+
+3. Configure Contracts Hotel.json and update:
+```
 {
   "address": "YOUR_HOTEL_CONTRACT_ADDRESS",
   "abi": [...]
 } 
-‘’’
+```
+
 4. Run the app
-‘’’
+```
 npm start
-‘’’
+```
+
 ## Testing Locally. 
+
 1. Use Hardhat Network or run a local node:
-‘’’
+```
 npx hardhat node 
-‘’’
+```
+
 2. Then deploy:
-‘’’
+```
 npx hardhat run scripts/deploy.js --network localhost 
-‘’’
+```
+
 3. Update Hotel.json with the local contract address.
+
 ## Deploying on Testnet/Mainnet
+
 1. Set up .env file:
-‘’’
+```
 RPC_URL=https://rinkeby.infura.io/v3/YOUR_INFURA_KEY 
 PRIVATE_KEY=your_wallet_private_key 
-‘’’
+```
+
 2. Deploy Live Demo Using Vercel. Install Vercel CLI:
-‘’’
+```
 npm install -g vercel
-‘’’
+```
+
 Navigate to frontend folder:
-‘’’
+```
 cd hotel-frontend 
-‘’’
+```
+
 Deploy:
-‘’’
+```
 vercel
-‘’’
-Or Deploy to Netlify. Install Netlify CLI:
-‘’’
+```
+
+or Deploy to Netlify. Install Netlify CLI:
+```
 npm install -g netlify-cli
-‘’’
+```
+
 Login:
-‘’’
+```
 netlify login
-‘’’
+```
+
 Build and deploy:
-‘’’
+```
 netlify deploy –prod
-‘’’
+```
+
 After deploying, update the Hotel.json contract address with your deployed one:
-‘’’
+```
 {
   "address": "0xYourDeployedHotelContractAddress",
   "abi": [ ... ]
 } 
-‘’’
+```
+
 Then redeploy using the same command:
-‘’’
+```
 vercel
-‘’’
+```
+
 or
-‘’’
+```
 netlify deploy –prod
-‘’’
+```
 
 
