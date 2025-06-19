@@ -1,0 +1,30 @@
+hotel-booking-contract/
+├── contracts/
+│   ├── Hotel.sol
+│   ├── DateTime.sol
+│   └── Token.sol 
+│   └── BookingToken.sol
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── hooks/
+│   │   │   └── useContract.js
+│   │   ├── components/
+│   │   │   ├── ConnectButton.jsx
+│   │   │   └── BookingForm.jsx
+│   │   └── contracts/
+│   │       ├── Hotel.json         // ABI + deployed address placeholder
+│   │       └── BookingToken.json  // ABI only
+│   │       └── DateTime.json
+│   │       └── BookingToken
+│   ├── package.json
+│   └── README.md
+├── scripts/
+│   └── deploy.js
+├── test/
+│   └── HotelTest.js
+├── hardhat.config.js
+├── .gitignore
+└── README.md
